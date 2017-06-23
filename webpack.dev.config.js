@@ -6,7 +6,7 @@ module.exports = {
     devtool: 'source-map',
 
     entry:{
-        index:["./index.js"]
+        index:["./src/test/index.js"]
     }, //入口文件
     
     output: {

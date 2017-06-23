@@ -35,7 +35,7 @@ if(NODE_ENV === 'development'){
 	app.use(webpackHotMiddleware(compiler));
     
     router.get('/virtualdom/index', function(req, res){
-        res.render('index.html', {
+        res.render('./src/test/index.html', {
             env: NODE_ENV
         });
     });
